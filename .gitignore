@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# SQLite (old)
+*.db
+
+# ML artifacts (large files)
+ml/model.pkl
+ml/scaler.pkl
+ml/feature_names.pkl
+
+# Temp repo clones
+/tmp/reposense_*
+
+# Reports
+reports/*.csv
+reports/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
